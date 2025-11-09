@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sequence-box {
+    font-size: 22px;
+    font-weight: bold;
+    word-wrap: break-word;
+    border: 2px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    letter-spacing: 5px; /* Increases spacing for clarity */
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.chart-container {
+    width: 80%; /* Increased width for a larger graph */
+    max-width: 700px; /* Graph is now larger */
+    height: 400px; /* Increased height */
+    margin: auto;
+}
+
+.highlight-A { color: #e63946; } /* Red for A */
+.highlight-T { color: #457b9d; } /* Blue for T */
+.highlight-U { color: #1d3557; } /* Dark Blue for U */
+.highlight-C { color: #2a9d8f; } /* Green for C */
+.highlight-G { color: #f4a261; } /* Orange for G */
